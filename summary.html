@@ -6,26 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>summary.html</title>
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-    <nav>
-        <div>
-            <a href="index.html"><img src="images/1.png" alt="Логотип" width="250"></a>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="images/1.png" alt="Логотип" width="100"></a>
         </div>
+
+        <nav class="menu">
         <ul>
-            <li><a href="i.html">О СЕБЕ</a></li>
-            <li><a href="summary.html">РЕЗЮМЕ</a></li>
-            <li><a href="portfolio.html">ПОРТФОЛИО</a></li>
-            <li><a href="com.html">КОМПЕТЕНЦИИ</a></li>
-            <li><a href="contacts.html">КОНТАКТЫ</a></li>
+            <div><li><a href="i.html">О СЕБЕ</a></li></div>
+            <div><li><a href="summary.html">РЕЗЮМЕ</a></li></div>
+            <div><li><a href="portfolio.html">ПОРТФОЛИО</a></li></div>
+            <div><li><a href="com.html">КОМПЕТЕНЦИИ</a></li></div>
+            <div><li><a href="contacts.html">КОНТАКТЫ</a></li></div>
         </ul>
-    </nav>
+        </nav>
+    </header>
 
-    <div>
+    <div class="header-title">
         <h1>Веб-технологии</h1>
+        <h3>Университет "Дубна"</h3>
+    </div>
 
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae inventore expedita assumenda beatae esse quisquam eos quasi rerum voluptatem autem nisi, fugit nostrum sequi eum libero dolorum quibusdam aperiam nobis?</p>
+
+    <div class="table">
         <table border="1">
-            <caption>Резюме</caption>
+            <caption><h3>Опыт работы</h3></caption>
             <tr>
              <th>Год</th>
              <th>Место работы, должность</th>
@@ -54,11 +64,9 @@
 
     </div>
 
-    <footer>
-        <div>
-            <img src="images/2.jpg" alt="Поделиться" width="150"></a>
-            <p>Сайт разработан ФИ, Copyright © 2021</p> 
-        </div>
+    <footer class="footer">
+        <div class="img"><img src="images/2.jpg" alt="Поделиться" width="150"></a></div>
+        <div class="p"></div><p>Сайт разработан ФИ, Copyright © 2021</p></div>
     </footer>
 
 </body>
