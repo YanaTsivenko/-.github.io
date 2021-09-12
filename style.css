@@ -53,25 +53,37 @@
       text-decoration: underline; /* подчеркивание при наведении курсора мыши на ссылку */
      }
 
+     article
+{
+   text-align: center;
+   background-image: url(../images/картинка.jpg);
+   height: 400px;
+   background-repeat: no-repeat;
+   background-position: left;
+   background-color: #020305;
+   background-attachment: fixed;
+   background-size: cover;
+   padding-left: 250px;
+   padding-top: 100px;
+}
+
+
      .header-title {
       text-align: center;
-      background-image: url(images\11.jpg);
       height: 400px;
       background-repeat: no-repeat;
       background-position: left;
-      background-color: #020305;
       background-attachment: fixed;
       background-size: cover;
       padding-left: 250px;
       padding-top: 100px;
-      color: blue;
+      color: black;
       }
 
 
       .footer {
         display: flex;
         border: 2px solid #ccc;
-        display: flex;
         flex-wrap: wrap; /*перенос строки */
         justify-content: space-between; /*прижимает содержимое к краям */
         align-items: center; /*выравнивает элементы по центру на вертикальной */
